@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+
+<style>
+#div2 {
+	position: absolute;
+  
+    background: red;
+    display: none;
+}
+
+#div1 {
+	background-color: pink;
+}
+
+</style>
+</head>
+
+<html>
+<body>
+<div>
+<a id = "div2"> h lacap </a>
+<img src = 'img/ixm-people-h.jpg'  id="div1">
+
+</div>
+
+
+<script src = "js/jquery-3.2.1.js"></script>
+<script>
+
+$(function() {
+$('#div1').hover(function() { 
+    $('#div2').fadeIn(); 
+}, function() { 
+    $('#div2').fadeOut(); 
+	});
+});
+
+
+</script>	
+</body>
+</html>

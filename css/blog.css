@@ -1,0 +1,79 @@
+.blogmain {
+    margin: 15px 0px;
+    color: black;
+}
+
+.blogmain a:hover {
+
+    color: black;
+    text-decoration: none;
+
+}
+.headline{
+}
+
+.colone {
+    background-color:yellow;
+}
+
+.blogcontainer{
+            background-image: url("../img/people-bg.jpg");
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+    background-position: 300px 0px;
+}
+
+.mainblogentry{
+}
+
+.headlineimage {
+    padding: 20px;
+}
+
+.headlinecopy {
+
+    font-family: 'bebas';
+}
+
+.headlinecopy h3 {
+    font-size: 60px;
+    color: #ffe300;
+    margin-bottom: 3px;
+}
+
+.headlinecopy h5 {
+    margin:0px;
+    color: #ffed7e;
+}
+
+.headlinecopy p {
+    color: #a3a3a3;
+    font-family: 'arial';
+
+}
+
+.subblogs {
+    font-family: 'bebas';    
+}
+
+.subblogs h3 {
+    font-size: 22px;
+    
+    color: black;
+    margin:0px
+}
+
+.subblogs h5 {
+    margin-top:4px;
+    margin-bottom: 14px;
+    color: #ffed7e;
+}
+.subblogs p {
+    font-size:13px;
+    font-family:'arial';
+    color:#a3a3a3;
+}
+
+.blogfooter {
+       background: -webkit-linear-gradient(left top, #fff64e, #ffde00);
+}

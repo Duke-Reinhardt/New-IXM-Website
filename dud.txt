@@ -1,0 +1,10 @@
+            <div class = "landingcopy col-md-12 ">
+                <h1>This are 
+                  <span class="txt-rotate" data-period="2000"data-rotate='[ "The people", "<br>IDEASXMACHINA", "AWESOME", "CREATIVE", "NEW" ]'></span></h1>
+                <h2>Those who make the mundanE, AMAZING.</h2>
+                </div>  
+                
+                
+                
+  <script src ="js/landingPage.js"></script>
+  <script src ="js/readin.js"></script>

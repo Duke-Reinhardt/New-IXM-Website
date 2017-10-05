@@ -1,0 +1,348 @@
+
+@font-face {
+	font-family: bebas;
+	src: url(css/"bebas.ttf");
+
+}
+    
+/*navbar styles */
+
+
+/*landing styles*/
+.landing{
+    background: -webkit-linear-gradient(left top, #fff64e, #ffde00);
+    height: 680px;
+    font-family:'bebas';
+    z-index: 1;
+}
+
+
+.landingbg {
+    background-image: url("../img/IXM-thailand.png");
+    height:680px;
+    background-position: 650px -70px;
+    background-attachment: fixed;
+    background-size: 40% auto;
+    background-repeat: no-repeat;
+
+}
+
+.landing1 {
+
+}
+
+.landingnav {
+    letter-spacing:10px;
+    padding-left: 0px;
+    padding-top: 30px;
+
+}
+
+.landingcopy {
+    letter-spacing: 3px;
+    margin: 20vh 20px ;
+    color: #505050;
+}
+
+
+.landingcopy h1{
+    font-size:100px;      
+}
+
+
+.peoplelandingcopy {
+    font-size: 130px;
+    letter-spacing: 3px;
+    margin: 140px 40px;
+    color: #505050;
+}
+
+.peoplelandingcopy h2{
+    font-family: bebas;
+    font-size:20px;
+    margin-top:0px;
+    color:#9e9e9e;
+}
+
+.landingcopy h2 {
+
+    font-size: 18px;
+    margin-top:4px;
+    color:#9e9e9e;
+}
+.landing2 {
+
+}
+
+
+/*rtb styles*/
+.rtb {
+    background-image: url("../img/rts-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 35px 100px;
+    background-color:white;
+    font-family:'bebas';
+    letter-spacing: 2px;
+    
+}
+
+.top {
+    padding:20px;
+    font-size:40px;
+    text-align: center;
+}
+
+.rtb h1 {
+    margin-top:0px;
+    font-size:30px;
+    margin-bottom:0px;
+    color: #505050;
+}
+
+.rtb p {
+    font-family:helvetica;
+    color: #bbbbbb;
+    font-size:15px;
+}
+
+.craft {
+    padding: 90px 0px;
+}
+
+.heart {
+    
+    padding: 50px 0px;
+}
+
+.millenial {
+    
+    padding: 80px 0px;
+}
+
+.weare{
+    
+    padding: 20px 0px;
+
+}
+ 
+
+/*blog styles*/
+.blog {
+   background: -webkit-linear-gradient(left top, #fff200, #ffde00);
+    padding-bottom: 20px;
+    z-index:2;
+
+}
+
+.blogtitle {
+    padding-top:20px ;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #505050;
+    font-family:'bebas';
+ 
+}
+
+.blogcontainer {
+    
+
+}
+
+.blogcol1 {
+    
+}
+.blogcol2 {
+
+padding-bottom: 20px;
+
+}
+
+.blogentry {
+    padding-top:20px;
+    
+}
+.blogentry a:hover {
+    text-decoration: none;
+}
+
+.blogimage {
+    
+}
+
+.blogcopy{
+
+    
+}
+
+.blog h3 {
+    margin:0px;
+    font-family:'bebas';
+    color: black;
+}
+
+.blog h5 {
+    margin: 0px;
+    padding-top:2px;
+    color: #d1c829;
+}
+
+.blog p {
+    color: #545453;
+}
+/*people*/
+
+
+
+.peopleimg {
+    height: 400px;
+
+}
+
+
+
+
+/*works.css file */
+
+/*blogentry*/
+.entry{
+    background-color: purple;
+    height: 500px
+}
+
+.blogentrytitle {
+    background-color:pink;
+    height:40px
+}
+
+.blogarticle {
+    background-color:yellow;
+    height:450px
+}
+
+/*footer styles*/
+.footer {
+    float:center;
+    padding-top: 30px;
+    color: #6e6e6e;
+    font-family:'bebas';
+
+}
+
+/* list style */
+
+
+ul {
+    list-style-type: none;
+ 
+    overflow: hidden;
+
+}
+
+li {
+    letter-spacing: 3px;
+    float: left;
+}
+
+.footer li a {
+    color: #a1a1a1;
+    padding: 70px;    
+}
+
+.landing li a {
+    color: #505050;
+    padding: 40px;
+    text-decoration: none;
+}
+
+.footer li a:hover {
+    color:black;
+    text-decoration: none;
+    
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.rightalign{
+    text-align: right;
+}
+
+.yellowtxt {
+    color: #ffeb00;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+/*Vision-Mission*/
+.vmhead {
+    font-family:bebas;
+    font-size: 60px;
+    text-align: center;
+    color: #ffe700;
+}
+
+.vmtop {
+    margin-top: 30px;
+
+    }
+
+.vmrest {
+    margin-top: 100px;
+}
+
+
+
+.vmbody {
+    font-family: helvetica-light;
+    text-align:justify;
+    text-align-last: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:#a3a3a3;
+    line-height: 40px;
+    padding: 0px 100px;
+    margin-bottom: 40px;
+
+}
+
+
+/*Contactus*/
+
+.contactlogo {
+    height: 50%;
+    margin: auto;
+    padding: 5% 25%;
+}
+
+
+.contactdetails {
+    height: 190px;
+    text-align: center;  
+}
+
+.contactborder {
+    padding: 0;
+}
+
+.contactdetails p {
+    font-family: bebas;
+}
+
+.contactaddress {
+    color:#ffe700;
+    font-size: 30px;
+}
+
+.contactspecs {
+    color: #bbbbbb;
+    font-size: 20px;
+}
+
+
